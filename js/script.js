@@ -1,45 +1,45 @@
 
-//algoritmo con condicional
-
-//let elegirCaffe = parseInt(prompt("elija que cafe quiere llevar: 1:cafe amargo $1000 opcion 2 : cafe latte  $1000 opcion 3: capuchino $1000"))
-//let cantidadCaffe = parseInt(prompt("elija la cantidad que quiere llevar solo se puede hasta 4 unidades"))
 
 
-//let precioCaffe = 1000
-//function multiplicacion(cantidadCaffe, precioCaffe) {
-//  let resultado = cantidadCaffe * precioCaffe;
-// return resultado
-//}
-
-//if (elegirCaffe === 1) {
-//   alert("elegiste el caffe amargo");
-//   console.log(multiplicacion(cantidadCaffe, 1000))
-
-//} else if (elegirCaffe === 2) {
-//   alert("elegiste caffe late ")
-// console.log(multiplicacion(cantidadCaffe, 2000))
-
-//} else {
-//  alert("elegiste el capucchino")
-//console.log(multiplicacion(cantidadCaffe, 3000))
-//}
+let elegirCaffe = parseInt(prompt("elija que cafe quiere llevar: 1:cafe amargo $1000 opcion 2 : cafe latte  $1000 opcion 3: capuchino $1000"))
+let cantidadCaffe = parseInt(prompt("elija la cantidad que quiere llevar solo se puede hasta 4 unidades"))
 
 
-// algoritmo con ciclo for
+let precioCaffe = 1000
+function multiplicacion(cantidadCaffe, precioCaffe) {
+  let resultado = cantidadCaffe * precioCaffe;
+ return resultado
+}
+
+if (elegirCaffe === 1) {
+   alert("elegiste el caffe amargo");
+   console.log(multiplicacion(cantidadCaffe, 1000))
+
+} else if (elegirCaffe === 2) {
+   alert("elegiste caffe late ")
+ console.log(multiplicacion(cantidadCaffe, 2000))
+
+} else {
+  alert("elegiste el capucchino")
+console.log(multiplicacion(cantidadCaffe, 3000))
+}
 
 
-//alert("Usted va a ingresar la edad de cada uno de sus 5 amigos para ingresar al boliche")
-//for (let i = 0; i < 5; i++) {
-//   edad = parseInt(prompt("Ingrese edad de la persona " + (i + 1)))
+ algoritmo con ciclo for
 
-//   if (edad >= 18 && edad <= 40) {
-//       alert("podes pasar con 2 consumiciones gratis  ")
-//  
-//  }
-//  else (edad > 40) {
-//      alert("No podes pasar")
-// }
-//}
+
+alert("Usted va a ingresar la edad de cada uno de sus 5 amigos para ingresar al boliche")
+for (let i = 0; i < 5; i++) {
+   edad = parseInt(prompt("Ingrese edad de la persona " + (i + 1)))
+
+  if (edad >= 18 && edad <= 40) {
+       alert("podes pasar con 2 consumiciones gratis  ")
+  
+  }
+  else (edad > 40) {
+      alert("No podes pasar")
+ }
+}
 
 
 
